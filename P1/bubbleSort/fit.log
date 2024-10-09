@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Sun Feb 18 19:32:42 2024
+
+
+FIT:    data read from "bubbleSort.CPUtimes" using 1:2
+        format = x:z
+        #datapoints = 7
+        residuals are weighted equally (unit weight)
+
+function used for fitting: y(x)
+	y(x)=a*x*x + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.9677073730e+19   0.00e+00  9.68e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 4.2188122311e+04  -5.72e-02  9.68e-04    2.925637e-06  -3.058784e-02   9.972399e+01
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 42188.1
+rel. change during last iteration : -5.718e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 102.699
+variance of residuals (reduced chisquare) = WSSR/ndf   : 10547
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.92564e-06      +/- 1.033e-07    (3.53%)
+b               = -0.0305878       +/- 0.006951     (22.72%)
+c               = 99.724           +/- 65.05        (65.23%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.966  1.000 
+c               0.620 -0.730  1.000 

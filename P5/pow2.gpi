@@ -1,0 +1,15 @@
+##Mihai Alexandru Stfanoiu
+set terminal png
+set output "pow2.png"
+
+set xlabel "Exponente"
+set ylabel "Tiempo (ms)"
+set title "Comparación de Tiempos entre pow2_1, pow2_2 y pow2_3"
+
+# Ajuste del rango mínimo del eje y
+set yrange [0.00001:*]
+
+plot "pow2.Time" using 1:2 with linespoints title "Tiempo (pow2_1)", \
+     "pow2.Time" using 1:3 with linespoints title "Tiempo (pow2_2)", \
+     "pow2.Time" using 1:4 with linespoints title "Tiempo (pow2_3)"
+
